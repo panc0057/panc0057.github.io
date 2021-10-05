@@ -1,5 +1,6 @@
 body { /* 0,0,0,1 */
     color:darkmagenta;
+    font-family: Arial;font-size: 18px;
 }
 
 /* change color of all paragraphs and list items */
@@ -26,6 +27,7 @@ section h1 {
 /* LVHA */
 a:link {
     color:red;
+    text-decoration: none;
 }
 
 a:visited {
@@ -40,3 +42,6 @@ a:active {
     color:slateblue;
 }
 
+li:nth-child(odd) {
+    background-color: tan;
+}
