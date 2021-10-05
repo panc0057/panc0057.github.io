@@ -1,4 +1,4 @@
-body {
+body { /* 0,0,0,1 */
     color:darkmagenta;
 }
 
@@ -13,12 +13,12 @@ section h1 {
 }
 
 /* style a class */
-.secondary-heading {
+.secondary-heading { /* 0,0,1,0 */
     color:darkred;
 }
 
 /* style an id */
-#main-section {
+#main-section { /* 0,1,0,0 */
     color:rgb(238, 28, 140);
     font-weight: bold;
 }
@@ -37,6 +37,6 @@ a:hover {
 }
 
 a:active {
-    color:red;
+    color:slateblue;
 }
 
