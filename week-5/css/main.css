@@ -1,0 +1,42 @@
+body {
+    color:darkmagenta;
+}
+
+/* change color of all paragraphs and list items */
+p, ul {
+    color:cornflowerblue;
+}
+
+/* target child elements */
+section h1 {
+    color:crimson;
+}
+
+/* style a class */
+.secondary-heading {
+    color:darkred;
+}
+
+/* style an id */
+#main-section {
+    color:rgb(238, 28, 140);
+    font-weight: bold;
+}
+
+/* LVHA */
+a:link {
+    color:red;
+}
+
+a:visited {
+    color:black;
+}
+
+a:hover {
+    color:rosybrown;
+}
+
+a:active {
+    color:red;
+}
+
