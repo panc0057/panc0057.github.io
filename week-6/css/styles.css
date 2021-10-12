@@ -1,10 +1,26 @@
+html {
+    font-size: 16px;
+}
+
 body {
     background-color: rgb(207, 207, 207);
     font-family: Verdana, Arial, sans-serif;
     font-size: 16px;
     line-height: 1.5;
     background-color: #eeeeee;
-    background-image: url("../images/white_brick_wall.png")
+    background-image: url("../images/white_brick_wall.png");
+
+    background-repeat: no-repeat;
+    background-position: 10px 20px;
+    background-size: contain; /* or cover (it's different) */
+}
+
+p {
+    font-size: 1rem;
+}
+
+h1 {
+    font-size: 2rem;
 }
 
 .bolded {
@@ -17,5 +33,14 @@ body {
 
 .italics {
     font-style: italic;
+}
+/*  */
+header {
+    color: white;
+    background-color: rgb(255, 255, 255);
+    background-image: url(../images/bread.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
 }
 
