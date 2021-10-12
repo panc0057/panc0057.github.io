@@ -22,3 +22,12 @@ li:nth-child(odd) {
     background-color: rgb(230, 219, 75);
 }
 
+a:link {
+    text-decoration: none;
+    background-color: rgb(252, 143, 54);
+    border: darkgoldenrod;
+}
+
+a:hover {
+    background-color: rgb(255, 230, 0);
+}
