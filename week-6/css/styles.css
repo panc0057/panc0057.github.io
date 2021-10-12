@@ -3,6 +3,8 @@ body {
     font-family: Verdana, Arial, sans-serif;
     font-size: 16px;
     line-height: 1.5;
+    background-color: #eeeeee;
+    background-image: url("../images/white_brick_wall.png")
 }
 
 .bolded {
