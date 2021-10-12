@@ -1,0 +1,12 @@
+body {
+    font-family: Arial; font-size: 18px;
+}
+
+header, footer {
+    background-color: rgb(238, 159, 40);
+}
+
+.site-title {
+    color: rgb(153, 28, 12);
+}
+
