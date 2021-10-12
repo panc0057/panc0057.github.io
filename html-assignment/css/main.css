@@ -10,3 +10,11 @@ header, footer {
     color: rgb(153, 28, 12);
 }
 
+#my-image {
+    box-shadow: 0px 0px 2px 1px black;
+}
+
+ul {
+    list-style-type: square;
+}
+
