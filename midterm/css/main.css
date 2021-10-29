@@ -1,0 +1,39 @@
+html{
+    background-color: rgb(173, 230, 220);
+    box-sizing: border-box;
+}
+
+header{
+    text-transform: uppercase;
+    font-size: 25px;
+    color: #f7f7f7;
+}
+
+.fish{
+    position: absolute;
+    padding-left: 300px;
+    padding-right: 300px;
+    padding-top: 180px;
+}
+
+.box {
+    width: 330px;
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    /* float the boxes beside each other */
+    float: left;
+    text-align: center;
+}
+
+.box1 {
+    box-sizing: content-box;
+}
+
+.box2 {
+    box-sizing: border-box;
+    border-left: black;
+}
+
+.box3 {
+    box-sizing: content-box;
+}
