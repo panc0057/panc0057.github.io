@@ -4,9 +4,11 @@ html{
 }
 
 header{
-    text-transform: uppercase;
     font-size: 25px;
     color: #f7f7f7;
+}
+header img{
+    width: 1000px;
 }
 
 .fish{
@@ -17,12 +19,14 @@ header{
 }
 
 .box {
-    width: 330px;
+    width: 33%;
+    max-width: 333px;
     color: rgb(0, 0, 0);
     text-transform: uppercase;
     /* float the boxes beside each other */
     float: left;
     text-align: center;
+    font-size: 25px;
 }
 
 .box1 {
@@ -31,9 +35,22 @@ header{
 
 .box2 {
     box-sizing: border-box;
-    border-left: black;
+    border-left: 2px black;
 }
 
 .box3 {
     box-sizing: content-box;
 }
+
+.container{
+    width: 1000px;
+    margin: 0 auto;
+    float: left;
+    font-size: 18px;
+  }
+  img{
+    width: 200px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    float: left;
+  }
