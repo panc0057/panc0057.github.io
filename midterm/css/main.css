@@ -51,4 +51,29 @@ header img{
       float: left;
   }
 
-  
+  .continfo{
+      float: left;
+  }
+
+  .info1{
+    width: 1000px;
+    height: 600px;
+    border: 2px solid black;
+    padding: 15px;
+  }
+
+  .formname{
+      padding-top: 20px;
+      padding-bottom: 15px;
+  }
+
+  .line{
+      width: 900px;
+  }
+
+  footer{
+      padding-top: 10px;
+      padding-bottom: 10px;
+      width: 1000px;
+      float: left;
+  }
