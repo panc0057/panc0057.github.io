@@ -29,17 +29,9 @@ header img{
     font-size: 25px;
 }
 
-.box1 {
-    box-sizing: content-box;
-}
-
 .box2 {
-    box-sizing: border-box;
-    border-left: 2px black;
-}
-
-.box3 {
-    box-sizing: content-box;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
 }
 
 .container{
@@ -54,3 +46,9 @@ header img{
     margin-bottom: 30px;
     float: left;
   }
+
+  .facts{
+      float: left;
+  }
+
+  
