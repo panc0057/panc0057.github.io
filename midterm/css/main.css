@@ -6,8 +6,10 @@ html{
 body{
     background-color: rgb(194, 233, 233);
     font-family: sans-serif, Arial, Helvetica;
-    padding-left: 10%;
-    padding-right: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+    position: absolute;
+    width: 1024px;
 }
 /* image and site name changes in header */
 header{
@@ -16,13 +18,13 @@ header{
     margin: 0 auto;
 }
 header img{
-    width: 1000px;
+    width: 1024px;
 }
 /* title position change */
 .fish{
     position: absolute;
-    padding-left: 300px;
-    padding-right: 300px;
+    padding-left: 30%;
+
     padding-top: 160px;
 }
 /* nav boxes transform */
@@ -45,9 +47,14 @@ header img{
     border-left: 1px solid black;
     border-right: 1px solid black;
 }
+
+.overall {
+    padding: 10px;
+}
+
 /* article transform */
 .container{
-    width: 1000px;
+    width: 1024px;
     margin: 0 auto;
     /* text wrap around the img */
     float: left;
@@ -71,22 +78,22 @@ header img{
 
   /* transform input text area in contact info part */
   input[type="text"] {
-    width: 990px;
+    width: 99%;
     height: 30px;
 }
 
  input[type="email"] {
-    width: 990px;
+    width: 99%;
     height: 30px;
 }
 
  textarea {
-    width: 990px;
+    width: 99%;
     height: 100px;
 }
 /* border for contact info part */
-  .info1{
-    width: 1000px;
+  .info1{ 
+    width: 970px;
     height: 500px;
     border: 1px solid black;
     padding: 15px;
@@ -128,6 +135,7 @@ header img{
   footer{
       padding-top: 10px;
       padding-bottom: 10px;
-      width: 1000px;
+      max-width: 1004px;
+      width: 100%;
       float: right;
   }
