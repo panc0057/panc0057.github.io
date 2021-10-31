@@ -73,7 +73,7 @@ header img{
 /* changin position of facts, position under section name */
   .list {
     margin-left: -25px;
-    margin-top: -15px;
+    margin-top: -2px;
   }
 
   .continfo{
@@ -110,6 +110,8 @@ header img{
 
   h3 {
       font-size: 30px;
+      margin-top: 10px;
+      margin-bottom: 10px;
   }
 
   h2 {
