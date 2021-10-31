@@ -14,9 +14,8 @@ body{
 }
 /* image and site name changes in header */
 header{
-    font-size: 30px;
+    font-size: 32px;
     color: #f7f7f7;
-    margin: 0 auto;
 }
 header img{
     width: 1024px;
