@@ -1,13 +1,14 @@
 html{
-    background-color: rgb(142, 214, 201);
+    background-color: rgb(138, 189, 179);
     box-sizing: border-box;
 }
 
 body{
-    background-color: rgb(194, 233, 233);
+    background-color: rgb(196, 221, 221);
     font-family: sans-serif, Arial, Helvetica;
     margin-left: 10%;
     margin-right: 10%;
+    /* position for title to wrap the img */
     position: absolute;
     width: 1024px;
 }
@@ -24,7 +25,6 @@ header img{
 .fish{
     position: absolute;
     padding-left: 30%;
-
     padding-top: 160px;
 }
 /* nav boxes transform */
@@ -54,7 +54,7 @@ header img{
 
 /* article transform */
 .container{
-    width: 1024px;
+    width: 100%;
     margin: 0 auto;
     /* text wrap around the img */
     float: left;
@@ -70,6 +70,11 @@ header img{
 
   .facts{
       float: left;
+  }
+/* changin position of facts, position under section name */
+  .list {
+    margin-left: -25px;
+    margin-top: -15px;
   }
 
   .continfo{
@@ -133,9 +138,8 @@ header img{
   }
 
   footer{
+      padding-right: 20px;
       padding-top: 10px;
       padding-bottom: 10px;
-      max-width: 1004px;
-      width: 100%;
       float: right;
   }
