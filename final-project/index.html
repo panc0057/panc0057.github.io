@@ -4,39 +4,43 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Final Project</title>
+    <link href="css/main.css" rel="stylesheet">
 </head>
 <body>
     
     <header>
-        <nav>
+        <!-- navigation bar -->
+        <nav>  
             <div class="navbar">
-            <img src="images/logo.png" alt="logo">
+                <img src="images/logo.png" alt="logo">
 
-            <a href="#home">Jump to cakes menu</a>
-            <a href="#aboutus">Jump to cakes menu</a>
-            <a href="#services">Jump to cakes menu</a>
-            <a href="#team">Jump to cakes menu</a>
-            <a href="#contact">Jump to cakes menu</a>
+                <a href="#homes">Jump to cakes menu</a>
+                <a href="#aboutuss">Jump to cakes menu</a>
+                <a href="#servicess">Jump to cakes menu</a>
+                <a href="#teams">Jump to cakes menu</a>
+                <a href="#contacts">Jump to cakes menu</a>
 
-            <form>
-                <input type="text" placeholder="Search">
-                <button type="submit">@</button>
-            </form>
+                <form>
+                    <input type="text" placeholder="Search">
+                    <button type="submit">@</button>
+                </form>
             </div>
         </nav>
-        <section class="nav">
+        <!-- welcome section with img -->
+        <section class="homes">
             <img src="images/main-banner.jpg" alt="main-banner">
 
             <div class="welcome">
                 <h1>Welcome to Three Star Media</h1>
-                <p class="navp">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut itaque ad quasi cum! Facere unde eaque necessitatibus reiciendis id, corrupti nam corporis nobis dolorem tempora autem aliquid commodi molestias quidem.</p>
-                <button class="navbutton">Connect with us</button>
+                <p class="homep">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut itaque ad quasi cum! Facere unde eaque necessitatibus reiciendis id, corrupti nam corporis nobis dolorem tempora autem aliquid commodi molestias quidem.</p>
+                <button class="homebutton">Connect with us</button> 
             </div>
         </section>
     </header>
     
     <main>
+        <!-- about us section under welcome section -->
         <section class="aboutuss">
             <img src="images/about-us.jpg" alt="about-us">
             <h2 class="aboutush2">About Us</h2>
@@ -45,9 +49,10 @@
             <p class="aboutusp">Lorem ipsum dolor sit amet consectetur adipisicing elit. In illo unde quo distinctio repudiandae eligendi, itaque praesentium, ex, nihil quibusdam vitae animi facere. Ab minus ea possimus fugit facere! Quidem!</p>
         </section>
 
+        <!-- section with services (2 x 50%   3 x 33%) -->
         <section class="servicess">
             <h2 class="servicesh2">Our Services</h2>
-            <div class="servicesbox">
+            <div class="servicesbox">  <!-- div for all boxes -->
                 <div class="servicesbox-1">
                     <img src="images/digital.jpg" alt="digital">
                     <h3 class="servicesboxh3">Digital Transformation</h3>
@@ -81,6 +86,7 @@
             </div>
         </section>
 
+        <!-- section with vision -->
         <section class="visions">
             <div class="vision">
                 <img src="images/vision.jpg" alt="vision">
@@ -91,10 +97,11 @@
                 </div> 
             </div>
         </section>
-
+        
+        <!-- section with team info -->
         <section class="teams">
             <h2 class="teamh2">Our Team</h2>
-            <div class="teamboxes">
+            <div class="teamboxes">   <!-- div for all boxes -->
                 <div class="teamboxes-1">
                     <img src="images/john.jpg" alt="john">
                 </div>
@@ -116,10 +123,11 @@
             </div>
         </section>
 
+        <!-- section with contact info: message, location, schedule -->
         <section class="contacts">
             <h2 class="contacth2">Contact Us</h2>
             <div class="contactboxes">
-                <div class="contactboxes-1">
+                <div class="contactboxes-1">   <!-- send us message section -->
                     <h3 class="contactboxesh3">Send us a message</h3>
                     <div class="contactboxesforms">
                         <form action="thanks.html" method="post">
@@ -140,11 +148,11 @@
                           <button class="contactboxesbutton">Send</button>
                     </div>
                 </div>
-                <div class="contactboxes-2">
+                <div class="contactboxes-2">   <!-- google map section -->
                     <h3 class="contactboxesh3">Location</h3>
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d24113.7401230666!2d-75.76474910680744!3d45.3436885204989!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce0718cc4a6ad7%3A0xc6cc467725843e2b!2sAlgonquin%20College%20Ottawa%20Campus!5e0!3m2!1sen!2sca!4v1638074648480!5m2!1sen!2sca" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
                 </div>
-                <div class="contactboxes-3">
+                <div class="contactboxes-3">   <!-- schedule section -->
                     <h3 class="contactboxesh3">Hours of operation</h3>
                     <div class="contactboxes-3table">
                         <div class="contactboxes-3table-1">
@@ -164,11 +172,12 @@
 
     </main>
 
+    <!-- footer section -->
     <footer>
-        <div class="footer">
+        <section class="footers">
             <p class="footerp">©Copyright Three Star Media, 2021</p>
             <p class="footerp">All images are taken from <a target="_blank" href="">Unsplash</a></p>
-        </div>
+        </section>
     </footer>
 
 </body>
