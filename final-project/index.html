@@ -6,167 +6,200 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Final Project</title>
     <link href="css/main.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
 </head>
 <body>
     
-    <header>
-        <!-- navigation bar -->
-        <nav>  
+        <nav> 
+            <div class="container">
             <div class="navbar">
-                <img src="images/logo.png" alt="logo">
-
-                <a href="#homes">Home</a>
-                <a href="#aboutuss">About Us</a>
-                <a href="#servicess">Services</a>
-                <a href="#teams">Team</a>
-                <a href="#contacts">Contact</a>
-
-                <form>
+                <!-- <img class="logoimg" src="images/logo.png" alt="logo"> -->
+                <div class="navbarboxes">
+                <img class="navbarboxes logoimg" src="images/logo.png" alt="logo">
+                <div class="navbarboxes yellowbox"></div>
+                <a class="navbarboxes sdf navbarboxes-1" href="#homes">Home</a>
+                <a class="navbarboxes sdf navbarboxes-2" href="#aboutuss">About Us</a>
+                <a class="navbarboxes sdf navbarboxes-3" href="#servicess">Services</a>
+                <a class="navbarboxes sdf navbarboxes-4" href="#teams">Team</a>
+                <a class="navbarboxes sdf navbarboxes-5" href="#contacts">Contact</a>
+                <form class="sdf navbarboxesform">
                     <input type="text" placeholder="Search">
-                    <button type="submit">@</button>
+                    <button type="submit"></button>
                 </form>
+                </div>
+            </div>
             </div>
         </nav>
-        <!-- welcome section with img -->
+    <header>
+        <div class="container">
+ <!-- navigation bar -->
+ <!-- welcome section with img -->
         <section id="homes">
-            <img src="images/main-banner.jpg" alt="main-banner">
+            <!-- <img src="images/main-banner.jpg" alt="main-banner"> -->
 
             <div class="welcome">
                 <h1>Welcome to Three Star Media</h1>
                 <p class="homep">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut itaque ad quasi cum! Facere unde eaque necessitatibus reiciendis id, corrupti nam corporis nobis dolorem tempora autem aliquid commodi molestias quidem.</p>
-                <button class="homebutton">Connect with us</button> 
+                <button class="homebutton">Connect with us &#9654</button> 
             </div>
         </section>
+        </div>
     </header>
     
     <main>
         <!-- about us section under welcome section -->
         <section id="aboutuss">
-            <img src="images/about-us.jpg" alt="about-us">
+            <div class="container">
+            <div class="aboutus">
+            <div class="aboutusdiv1">
+            <img class="aboutusimg" src="images/about-us.jpg" alt="about-us">
+            </div>
+            <div class="aboutusdiv2">
             <h2 class="aboutush2">About Us</h2>
+            <p class="aboutusp">Lorem ipsum dolor sit amet repudiandae eligendi, itaque praesentium, ex, nihil quibusdam consectetur adipisicing elit. In illo unde quo distinctio repudiandae eligendi, itaque praesentium, ex, nihil quibusdam vitae animi facere. Ab minus ea possimus fugit distinctio repudiandae.</p>
+            <br>
             <p class="aboutusp">Lorem ipsum dolor sit amet consectetur adipisicing elit. In illo unde quo distinctio repudiandae eligendi, itaque praesentium, ex, nihil quibusdam vitae animi facere. Ab minus ea possimus fugit facere! Quidem!</p>
-            <p class="aboutusp">Lorem ipsum dolor sit amet consectetur adipisicing elit. In illo unde quo distinctio repudiandae eligendi, itaque praesentium, ex, nihil quibusdam vitae animi facere. Ab minus ea possimus fugit facere! Quidem!</p>
-            <p class="aboutusp">Lorem ipsum dolor sit amet consectetur adipisicing elit. In illo unde quo distinctio repudiandae eligendi, itaque praesentium, ex, nihil quibusdam vitae animi facere. Ab minus ea possimus fugit facere! Quidem!</p>
+            </div>
+            </div>
+            </div>
         </section>
 
         <!-- section with services (2 x 50%   3 x 33%) -->
         <section id="servicess">
+            <div class="container">
             <h2 class="servicesh2">Our Services</h2>
             <div class="servicesbox">  <!-- div for all boxes -->
-                <div class="servicesbox-1">
-                    <img src="images/digital.jpg" alt="digital">
+                <div class="dfg servicesbox-1">
+                    <img class="servicesboximg" src="images/digital.jpg" alt="digital">
+                    <div class="rfv">
                     <h3 class="servicesboxh3">Digital Transformation</h3>
                     <p class="servicesboxp">Lorem ipsum dolor sit amet consectetur adipisicing elit. In illo unde quo distinctio repudiandae eligendi, itaque praesentium, ex, nihil quibusdam vitae animi facere. Ab minus ea possimus fugit facere! Quidem!</p>
-                    <button class="servicesboxbutton">Digital Plans</button>
+                    <button class="servicesboxbutton">Digital Plans &#9654</button>
+                    </div>
                 </div>
-                <div class="servicesbox-2">
-                    <img src="images/marketing.jpg" alt="marketing">
+                <div class="dfg servicesbox-2">
+                    <img class="servicesboximg" src="images/marketing.jpg" alt="marketing">
+                    <div class="rfv">
                     <h3 class="servicesboxh3">Marketing</h3>
                     <p class="servicesboxp">Lorem ipsum dolor sit amet consectetur adipisicing elit. In illo unde quo distinctio repudiandae eligendi, itaque praesentium, ex, nihil quibusdam vitae animi facere. Ab minus ea possimus fugit facere! Quidem!</p>
-                    <button class="servicesboxbutton">Marketing Plans</button>
+                    <button class="servicesboxbutton">Marketing Plans &#9654</button>
+                    </div>
                 </div>
-                <div class="servicesbox-3">
-                    <img src="images/video.jpg" alt="video">
+                <div class="dfg servicesbox-3">
+                    <img class="servicesboximg" src="images/video.jpg" alt="video">
+                    <div class="rfv">
                     <h3 class="servicesboxh3">Video Production</h3>
                     <p class="servicesboxp">Lorem ipsum dolor sit amet consectetur adipisicing elit. In illo unde quo distinctio repudiandae eligendi, itaque praesentium, ex, nihil quibusdam vitae animi facere. Ab minus ea possimus fugit facere! Quidem!</p>
-                    <button class="servicesboxbutton">Video Plans</button>
+                    <button class="servicesboxbutton">Video Plans &#9654</button>
+                    </div>
                 </div>
-                <div class="servicesbox-4">
-                    <img src="images/web.jpg" alt="web">
+                <div class="dfg servicesbox-4">
+                    <img class="servicesboximg" src="images/web.jpg" alt="web">
+                    <div class="rfv">
                     <h3 class="servicesboxh3">Web Development</h3>
                     <p class="servicesboxp">Lorem ipsum dolor sit amet consectetur adipisicing elit. In illo unde quo distinctio repudiandae eligendi, itaque praesentium, ex, nihil quibusdam vitae animi facere. Ab minus ea possimus fugit facere! Quidem!</p>
-                    <button class="servicesboxbutton">Web Plans</button>
+                    <button class="servicesboxbutton">Web Plans &#9654</button>
+                    </div>
                 </div>
-                <div class="servicesbox-5">
-                    <img src="images/print.jpg" alt="print">
+                <div class="dfg servicesbox-5">
+                    <img class="servicesboximg" src="images/print.jpg" alt="print">
+                    <div class="rfv">
                     <h3 class="servicesboxh3">Print</h3>
                     <p class="servicesboxp">Lorem ipsum dolor sit amet consectetur adipisicing elit. In illo unde quo distinctio repudiandae eligendi, itaque praesentium, ex, nihil quibusdam vitae animi facere. Ab minus ea possimus fugit facere! Quidem!</p>
-                    <button class="servicesboxbutton">Print Plans</button>
+                    <button class="servicesboxbutton">Print Plans &#9654</button>
+                    </div>
                 </div>
+            </div>
             </div>
         </section>
 
         <!-- section with vision -->
         <section id="visions">
+            <div class="container">
             <div class="vision">
-                <img src="images/vision.jpg" alt="vision">
+                <!-- <img src="images/vision.jpg" alt="vision"> -->
                 <div class="visioninside">
                 <h3 class="visionh3">Our Vision</h3>
                 <p class="visionp">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos repellat, magnam laboriosam facere iste, veritatis laudantium reiciendis vitae ipsa nesciunt quis nam, id incidunt recusandae nulla dicta non beatae odio!</p>
-                <button class="visionbutton">Learn More</button>
+                <button class="visionbutton">Learn More &#9654</button>
                 </div> 
+            </div>
             </div>
         </section>
         
         <!-- section with team info -->
         <section id="teams">
+            <div class="container">
             <h2 class="teamh2">Our Team</h2>
             <div class="teamboxes">   <!-- div for all boxes -->
-                <div class="teamboxes-1">
-                    <img src="images/john.jpg" alt="john">
+                <div class="xcv teamboxes-1">
+                    <img class="teamboxesimg" src="images/john.jpg" alt="john">
                 </div>
-                <div class="teamboxes-2">
-                    <h3 class="teamboxesh3">John Doe</h3>
+                <div class="xcv teamboxes-2">
+                    <h3 class=" qwe teamboxesh3">John Doe</h3>
                     <h4 class="teamboxesh4">CEO and Co-owner</h4>
-                    <hr>
+                    <hr class="hr">
                     <p class="teamboxesp">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et recusandae suscipit ipsum repudiandae dignissimos nemo laudantium velit provident, optio blanditiis delectus eaque sequi ad quod officia voluptatibus dicta id ipsam.</p>
                 </div>
-                <div class="teamboxes-3">
-                    <h3 class="teamboxesh3">Bob Rite</h3>
+                <div class="xcv teamboxes-3">
+                    <img class="teamboxesimg" src="images/bob.jpg" alt="bob">
+                </div>
+                <div class="xcv teamboxes-4">
+                    <h3 class="qwe teamboxesh3">Bob Rite</h3>
                     <h4 class="teamboxesh4">CFO and Co-owner</h4>
-                    <hr>
+                    <hr class="hr">
                     <p class="teamboxesp">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et recusandae suscipit ipsum repudiandae dignissimos nemo laudantium velit provident, optio blanditiis delectus eaque sequi ad quod officia voluptatibus dicta id ipsam.</p>
                 </div>
-                <div class="teamboxes-4">
-                    <img src="images/bob.jpg" alt="bob">
-                </div>
+            </div>
             </div>
         </section>
 
         <!-- section with contact info: message, location, schedule -->
         <section id="contacts">
+            <div class="container">
             <h2 class="contacth2">Contact Us</h2>
             <div class="contactboxes">
-                <div class="contactboxes-1">   <!-- send us message section -->
+                <div class="yui contactboxes-1">   <!-- send us message section -->
                     <h3 class="contactboxesh3">Send us a message</h3>
                     <div class="contactboxesforms">
-                        <form action="thanks.html" method="post">
-                            <div class="formname"><label for="fullname">Your Name</label></div>
+                        <formc action="thanks.html" method="post">
+                            <div class="formname"><label for="fullname">Full Name</label></div>
                             <input id="fullname" type="text">
                           </form>
                         
-                          <form action="thanks.html" method="post">
-                            <div class="formname"><label for="fullname">Your Email</label></div>
+                          <form class="ghj" action="thanks.html" method="post">
+                            <div class="formname"><label for="fullname">Email</label></div>
                            <input id="email" type="email">
                           </form>
                 
-                          <form action="thanks.html" method="post">
-                            <div class="formname"><label for="message">Your Message</label></div>
+                          <form class="ghj" action="thanks.html" method="post">
+                            <div class="formname"><label for="message">Message</label></div>
                             <textarea id="message"></textarea>
                           </form>
 
-                          <button class="contactboxesbutton">Send</button>
+                          <button class="ghj contactboxesbutton">Send</button>
                     </div>
                 </div>
-                <div class="contactboxes-2">   <!-- google map section -->
+                <div class="yui contactboxes-2">   <!-- google map section -->
                     <h3 class="contactboxesh3">Location</h3>
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d24113.7401230666!2d-75.76474910680744!3d45.3436885204989!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce0718cc4a6ad7%3A0xc6cc467725843e2b!2sAlgonquin%20College%20Ottawa%20Campus!5e0!3m2!1sen!2sca!4v1638074648480!5m2!1sen!2sca" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    <iframe class="contactboxes-2img" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d24113.7401230666!2d-75.76474910680744!3d45.3436885204989!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce0718cc4a6ad7%3A0xc6cc467725843e2b!2sAlgonquin%20College%20Ottawa%20Campus!5e0!3m2!1sen!2sca!4v1638074648480!5m2!1sen!2sca" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
                 </div>
-                <div class="contactboxes-3">   <!-- schedule section -->
+                <div class="yui contactboxes-3">   <!-- schedule section -->
                     <h3 class="contactboxesh3">Hours of operation</h3>
                     <div class="contactboxes-3table">
                         <div class="contactboxes-3table-1">
-                            <p class="contactboxes-3table-1yellow">Days</p>
-                            <p class="contactboxes-3table-1p">Monday - Friday</p>
-                            <p class="contactboxes-3table-1p">Saturday - Sunday</p>
+                            <p class="tgb contactboxes-3table-1yellow">Days</p>
+                            <p class="tgb contactboxes-3table-1p">Monday - Friday</p>
+                            <p class="tgb contactboxes-3table-1p">Saturday - Sunday</p>
                         </div>
                         <div class="contactboxes-3table-2">
-                            <p class="contactboxes-3table-1yellow">Hours</p>
-                            <p class="contactboxes-3table-2p">9 AM - 6 PM</p>
-                            <p class="contactboxes-3table-2p">Closed</p>
+                            <p class="tgb contactboxes-3table-1yellow">Hours</p>
+                            <p class="tgb contactboxes-3table-2p">9 AM - 6 PM</p>
+                            <p class="tgb contactboxes-3table-2p">Closed</p>
                         </div>
                     </div>
                 </div>
+            </div>
             </div>
         </section>
 
@@ -175,8 +208,11 @@
     <!-- footer section -->
     <footer>
         <section id="footers">
+            <div class="container">
             <p class="footerp">©Copyright Three Star Media, 2021</p>
-            <p class="footerp">All images are taken from <a target="_blank" href="">Unsplash</a></p>
+            <br>
+            <p class="footerp">All images are taken from <a class="footerbutton" target="_blank" href="">Unsplash</a></p>
+            </div>
         </section>
     </footer>
 

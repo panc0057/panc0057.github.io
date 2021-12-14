@@ -1,0 +1,613 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+        v2.0 | 20110126
+        License: none (public domain)
+        */
+
+        html, body, div, span, applet, object, iframe,
+        h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+        a, abbr, acronym, address, big, cite, code,
+        del, dfn, em, img, ins, kbd, q, s, samp,
+        small, strike, strong, sub, sup, tt, var,
+        b, u, i, center,
+        dl, dt, dd, ol, ul, li,
+        fieldset, form, label, legend,
+        table, caption, tbody, tfoot, thead, tr, th, td,
+        article, aside, canvas, details, embed, 
+        figure, figcaption, footer, header, hgroup, 
+        menu, nav, output, ruby, section, summary,
+        time, mark, audio, video {
+            margin: 0;
+            padding: 0;
+            border: 0;
+            font-size: 100%;
+            font: inherit;
+            vertical-align: baseline;
+        }
+        /* HTML5 display-role reset for older browsers */
+        article, aside, details, figcaption, figure, 
+        footer, header, hgroup, menu, nav, section {
+            display: block;
+        }
+        body {
+            line-height: 1;
+        }
+        ol, ul {
+            list-style: none;
+        }
+        blockquote, q {
+            quotes: none;
+        }
+        blockquote:before, blockquote:after,
+        q:before, q:after {
+            content: '';
+            content: none;
+        }
+        table {
+            border-collapse: collapse;
+            border-spacing: 0;
+        }
+
+        /* ================================= */
+        /* =========== MY STYLES =========== */
+        /* ================================= */
+
+
+        /* ==== MOBILE-FIRST STYLES ==== */
+        
+        html {
+            font-family: 'Open Sans', sans-serif;
+        }
+
+
+        body {
+            background: white;
+            font-family: 'Open Sans', sans-serif;
+        }
+
+        .container {
+            width: 100%;
+            margin: 0 auto;
+        }
+
+        header {
+            background: url("../images/main-banner.jpg") no-repeat fixed center;
+            color: #c58b22;
+            padding: 14px; 
+        }
+
+        /* ==== This just sets the width for accuracy to the mock-up ==== */
+        /* Don't put anything else in this media query! */
+
+        @media screen and (min-width: 760px){
+            .container {
+                width: 706px;
+            }
+        }
+
+                /* ==== DESKTOP STYLES ==== */
+
+                @media screen and (min-width: 1200px){
+                    .container {
+                        width: 1200px;
+                    }
+                }
+        
+        /* header {
+            background: url("images/logo.png") no-repeat fixed center; 
+        } */
+
+.navbar {
+    background-color: #222;
+}
+
+.yellowbox {
+    background-color: #c78c06;
+    width: auto;
+    height: 7em;
+    font-size: 1.05em;
+}
+
+.navbarboxes {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    padding: 1em;
+    text-decoration:none;
+    color: #c78c06;
+}
+
+.navbarboxes-1 {
+    background-color: #c78c06;
+    color: #222;
+}
+
+.logoimg {
+    position: absolute;
+}
+
+
+.navbarboxesform input {
+        width: 100%;
+        height: 4em;
+        outline: none;
+        background: white;
+        color: #9E9C9C;
+      }
+.navbarboxesform button {
+        position: relative;
+        width: 3em;
+        height: 2.5em;
+        border: 1px solid #c78c06;
+        background: none;
+        cursor: pointer;
+}
+
+.navbarboxesform {
+    display: flex;
+}
+
+
+header{
+    padding: 6em 0;
+    text-align: left;
+    color: white;
+    background: url("../images/main-banner.jpg") no-repeat center;
+    background-position: 55% 55%;
+    background-size: cover;
+    font-size: 0.7em;
+  }
+
+  .welcome {
+    background: rgba(0,0,0,0.5);
+    padding: 1em 0;
+  }
+
+  h1 {
+      font-size: 7em;
+      padding-top: 0.7em;
+      padding-bottom: 0.3em;
+  }
+
+h2 {
+    font-size: 2.5em;
+    font-weight: 1000;
+    padding-top: 1em;
+    padding-bottom: 0.7em;
+}
+
+h3 {
+    font-size: 1.8em;
+    font-weight: 800;
+    padding-top: 1.1em;
+    padding-bottom: 0.7em;
+}
+
+h4 {
+    font-weight: 700;
+}
+
+p {
+    font-size: 1em;
+}
+
+.homep, .homebutton {
+    padding: 1em 0;
+}
+
+.homep {
+    font-size: 1.3em;
+}
+
+.homebutton {
+    background-color: #c78c06;
+    padding: 1.5em;
+    font-size: 1.7em;
+    cursor: pointer;
+}
+
+.aboutusimg {
+    width: 100%;
+}
+
+.aboutus {
+    background-color: #ffe6ac;
+    padding: 1em;
+}
+
+.servicesbox {
+    background-color: #ffe6ac;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.servicesboximg {
+    width: 100%;
+}
+
+.servicesboxbutton {
+    background-color: #222;
+    color: white;
+    padding: 1.5em;
+    font-size: 1.3em;
+    margin-top: 1em;
+    cursor: pointer;
+}
+
+.dfg {
+
+    border-top: 1em solid white;
+}
+
+.rfv {
+    padding: 1em;
+}
+
+#servicess, #teams {
+    padding: 1em;
+}
+
+#visions {
+    background-image: url("../images/vision.jpg");
+    background-position: 55% 55%;
+    background-size: cover;
+}
+
+.vision {
+    width: 100%;
+    color: white;
+    padding: 1em;
+}
+
+.visionbutton {
+    color: white;
+    background: rgba(0,0,0,0.5);
+    padding: 1.5em;
+    font-size: 1.3em;
+    margin-top: 1em;
+    border: 1px solid #c78c06;
+    cursor: pointer;
+}
+
+.teamboxes {
+    display: flex;
+    flex-direction: column;
+}
+
+.teamboxes-2, .teamboxes-4 {
+    background-color: #ffe6ac;
+    padding: 1em;
+    padding-top: 0;
+}
+
+@media screen and (max-width: 1200px){
+    .teamboxes-2 {
+        border-bottom: 1em solid white;
+    }
+}
+
+.teamboxesimg {
+    width: 100%;
+}
+
+hr {
+    border-color: #c78c06;
+    background-color: #c78c06;
+}
+
+#contacts {
+    padding: 1em;
+}
+
+input[type="text"] {
+    width: 100%;
+    height: 2em;
+}
+
+ input[type="email"] {
+    width: 100%;
+    height: 2em;
+}
+
+ textarea {
+    width: 100%;
+    height: 8em;
+ }
+
+.ghj {
+    margin-top: 0.7em;
+}
+
+.contactboxes-1 {
+    margin-top: -1em;
+}
+
+.contactboxesbutton {
+    background-color: #222;
+    color: #c78c06;
+    padding: 0.2em;
+    cursor: pointer;
+}
+
+.contactboxes-2img {
+    width: 100%;
+}
+
+.contactboxes-3table {
+    display: grid;
+    grid-template-columns: 4fr 3fr;
+}
+
+.tgb {
+    border: 1px solid black;
+    padding: 1em;
+}
+
+.contactboxes-3table-1yellow {
+    background-color: #ffe6ac;
+    text-align: center;
+}
+
+footer {
+    padding-top: 1em;
+    background-color: #222;
+}
+
+#footers {
+    padding: 1em;
+    color: #c78c06;
+}
+
+.footerbutton {
+    color: #c78c06;
+}
+
+
+
+
+/* =================  DESKTOP ================== */
+/* =================  DESKTOP ================== */
+/* =================  DESKTOP ================== */
+
+
+
+@media screen and (min-width: 1200px){
+
+.navbarboxes {
+    display: flex;
+    margin: 0 auto;
+    text-align: center;
+    padding: 1em 0;
+    text-decoration:none;
+    align-items: center;
+    font-size: 1.05em;
+}
+
+.sdf {
+    padding: 1em 2em;
+}
+
+.yellowbox {
+    display: none;
+}
+
+.logoimg {
+    position: relative;
+    width: 7%;
+}
+
+nav {
+    background-color: #222;
+}
+
+.navbarboxesform button {
+    position: relative;
+    width: 3em;
+    height: 2.9em;
+    border: 1px solid #c78c06;
+    background: none;
+    cursor: pointer;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1200px;
+}
+
+.welcome {
+    background: rgba(0,0,0,0.5);
+    padding: 1em;
+    font-size: 1.5em;
+}
+
+#aboutuss {
+    background-color: #ffe6ac;
+}
+
+.aboutusimg {
+    width: 100%;
+}
+
+.aboutus {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 1em 0;
+    align-items:flex-start;
+}
+
+.aboutusdiv1 {
+    padding-right: 0.5em;
+}
+
+.aboutusdiv2 {
+    padding-left: 0.5em;
+
+}
+
+p {
+    font-size: 1.1em;
+}
+
+h1 {
+    /* font-size: 5.2em; */
+    font-weight: bold;
+    font-size: 81px/112px;
+    padding-top: 0.7em;
+    padding-bottom: 0.3em;
+}
+
+.homebutton {
+    font-size: 1.3em;
+    padding: 2em;
+    cursor: pointer;
+}
+
+h2 {
+    font-size: 3.4em;
+    font-weight: 700;
+    padding-top: 0.5em;
+}
+
+h3 {
+    font-size: 2.1em;
+    font-weight: 700;
+}
+
+h4 {
+    margin-top: -1em;
+    font-weight: 800;
+}
+
+.servicesbox {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    background-color: white;
+}
+
+.dfg {
+    margin: 0.5em;
+    background-color: #ffe6ac;
+    border-top: none;
+}
+
+.servicesbox-1 {
+    grid-column: 1/4;
+}
+
+.servicesbox-2 {
+    grid-column: 4/7;
+}
+
+.servicesbox-3 {
+    grid-column: 1/3;
+}
+
+.servicesbox-4 {
+    grid-column: 3/5;
+}
+
+.servicesbox-5 {
+    grid-column: 5/7;
+}
+
+.servicesboxbutton {
+    width: 100%;
+    background-color: #222;
+    color: white;
+    font-size: 1.3em;
+    padding: 2em auto;
+    margin-top: 1em;
+    cursor: pointer;
+}
+
+.vision {
+    padding-top: 0;
+}
+
+.visionbutton {
+    color: white;
+    background: rgba(0,0,0,0.5);
+    font-size: 1.3em;
+    padding: 1.5em;
+    margin-top: 1em;
+    cursor: pointer;
+}
+
+.teamboxes {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.teamboxes-3 {
+    grid-column: 2/3;
+}
+
+.teamboxes-4 {
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+
+.qwe {
+    margin-top: -0.5em;
+}
+
+.contactboxes {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.yui {
+    padding: 0.7em;
+}
+
+.contactboxes-1 {
+    grid-column: 1/2;
+    padding-top: 1.5em;
+}
+
+.contactboxes-2 {
+    grid-column: 2/3;
+}
+
+.contactboxes-3 {
+    grid-column: 1/3;
+    grid-row: 2/3;
+}
+
+.formname {
+    padding-bottom: 0.5em;
+}
+
+input[type="text"] {
+    width: 100%;
+    height: 2.5em;
+}
+
+ input[type="email"] {
+    width: 100%;
+    height: 2.5em;
+}
+
+ textarea {
+    width: 100%;
+    height: 10em;
+ }
+
+ .contactboxesbutton {
+    background-color: #222;
+    color: #c78c06;
+    font-size: 1.3em;
+    padding: 0.2em;
+    cursor: pointer;
+}
+
+footer {
+    margin-top: -0.7em;
+}
+
+.footerp {
+    padding-right: 1em;
+    padding-left: 0.7em;
+}
+
+
+}
