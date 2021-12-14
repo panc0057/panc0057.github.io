@@ -132,14 +132,14 @@
         outline: none;
         background: white;
         color: #9E9C9C;
+        padding: 0.5em 0;
       }
-.navbarboxesform button {
-        position: relative;
-        width: 3em;
-        height: 2.5em;
-        border: 1px solid #c78c06;
-        background: none;
+
+.navbarboxesform button { 
+        background-color: #222;
+        padding: 0;
         cursor: pointer;
+        border: 0;
 }
 
 .navbarboxesform {
@@ -166,24 +166,26 @@ header{
       font-size: 7em;
       padding-top: 0.7em;
       padding-bottom: 0.3em;
+      font-weight: bold;
   }
 
 h2 {
     font-size: 2.5em;
-    font-weight: 1000;
+    font-weight: bold;
     padding-top: 1em;
     padding-bottom: 0.7em;
 }
 
 h3 {
     font-size: 1.8em;
-    font-weight: 800;
+    font-weight: bold;
     padding-top: 1.1em;
     padding-bottom: 0.7em;
 }
 
 h4 {
     font-weight: 700;
+    
 }
 
 p {
@@ -298,6 +300,15 @@ hr {
     padding: 1em;
 }
 
+.contactboxes {
+    display: grid;
+    grid-template-columns: auto;
+}
+
+.contactboxes-2 {
+    order: 1;
+}
+
 input[type="text"] {
     width: 100%;
     height: 2em;
@@ -335,6 +346,7 @@ input[type="text"] {
 .contactboxes-3table {
     display: grid;
     grid-template-columns: 4fr 3fr;
+    font-size: 0.9em;
 }
 
 .tgb {
@@ -399,13 +411,20 @@ nav {
     background-color: #222;
 }
 
-.navbarboxesform button {
-    position: relative;
-    width: 3em;
-    height: 2.9em;
-    border: 1px solid #c78c06;
-    background: none;
+.navbarboxesform input {
+    width: 100%;
+    height: 4em;
+    outline: none;
+    background: white;
+    color: #9E9C9C;
+    padding: 0.3em 0;
+  }
+
+.navbarboxesform button { 
+    background-color: #222;
+    padding: 0;
     cursor: pointer;
+    border: 0;
 }
 
 .container {
@@ -450,7 +469,7 @@ p {
 h1 {
     /* font-size: 5.2em; */
     font-weight: bold;
-    font-size: 81px/112px;
+    font-size: 7em;
     padding-top: 0.7em;
     padding-bottom: 0.3em;
 }
@@ -514,7 +533,7 @@ h4 {
     background-color: #222;
     color: white;
     font-size: 1.3em;
-    padding: 2em auto;
+    padding: 2em 0;
     margin-top: 1em;
     cursor: pointer;
 }
